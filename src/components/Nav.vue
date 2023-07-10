@@ -21,7 +21,7 @@ onMounted(() => {
 <template>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <RouterLink to="/" class="navbar-brand"><img class="logo" src="../../public/Norsemen Hauling Logo.png">
+            <RouterLink to="/" class="navbar-brand"><img class="logo" src="../../public/logo.png">
             </RouterLink>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
