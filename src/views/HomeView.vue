@@ -63,7 +63,7 @@ import Intro from '../components/Introduction.vue';
 }
 
 .carousel {
-  background-color: rgb(30, 30, 30);
+  background-color: var(--darkBg);
   animation: fade-in .5s;
 }
 
@@ -73,7 +73,7 @@ section {
 }
 
 .dark-section {
-  background-color: rgb(30, 30, 30);
+  background-color: var(--darkBg);
   color: rgb(226, 226, 226);
 }
 

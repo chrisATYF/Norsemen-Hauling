@@ -11,7 +11,16 @@ import Nav from './components/Nav.vue';
   </div>
 </template>
 
-<style scoped>
+<style>
+:root {
+  --darkBg: rgb(21, 21, 21);
+  --space: 200px;
+  --radius: 25px;
+  --shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.500);
+  --shadow-mobile: 2.5px 2.5px 5px 2.5px rgba(0, 0, 0, 0.500);
+}
+
+
 .btmContent {
   bottom: 0;
   width: 100%;
