@@ -1,3 +1,7 @@
+<script setup>
+import Intro from '../components/Introduction.vue';
+</script>
+
 <template>
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
@@ -29,16 +33,15 @@
     </button>
   </div>
   <section>
-    <h3 class="heading">Norsemen Hauling</h3>
-    <h5 class="title">What we do</h5>
-    <ul class="services">
-      <li>Junk Removal</li>
-      <li>House, Estate, Rental & Hoarding Cleanouts</li>
-      <li>Light Demolition</li>
-      <li>Interior Painting</li>
-      <li>Hauling Services</li>
-      <li>Storm & Yard Waste Removal</li>
-    </ul>
+    <Intro></Intro>
+  </section>
+  <section class="dark-section">
+    <p>
+      Therefore God also has highly exalted Him and given Him the name which is above every name, that at the name
+      of Jesus every knee should bow, of those in heaven, and of those on earth, and of those under the earth, and
+      that every tongue should confess that Jesus Christ is Lord, to the glory of God the Father.
+    </p>
+    <span>Philippians 2: 9-11</span>
   </section>
 </template>
 
@@ -51,28 +54,33 @@
 
 .carousel {
   background-color: rgb(30, 30, 30);
+  animation: fade-in .5s;
 }
 
-.heading,
-.title {
-  text-transform: uppercase;
-  letter-spacing: .65rem;
+section {
   text-align: center;
-  margin: 0;
+  padding: 100px;
 }
 
-.title {
-  padding: 10px;
+.dark-section {
+  background-color: rgb(30, 30, 30);
+  color: rgb(226, 226, 226);
 }
 
-.heading {
-  padding: 25px;
+p {
+  letter-spacing: .5px;
+  font-size: 25px;
 }
 
-.services {
-  list-style: none;
-  text-align: center;
-  letter-spacing: .3rem;
-  padding: 0;
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0px);
+  }
 }
 </style>

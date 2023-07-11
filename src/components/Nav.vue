@@ -32,10 +32,10 @@ onMounted(() => {
                     <li class="nav-item me-2">
                         <RouterLink class="nav-link active" aria-current="page" to="/">Home</RouterLink>
                     </li>
-                    <!-- <li class="nav-item me-2">
+                    <li class="nav-item me-2">
                         <RouterLink class="nav-link" to="/about">About</RouterLink>
                     </li>
-                    <li class="nav-item me-2">
+                    <!-- <li class="nav-item me-2">
                         <RouterLink class="nav-link" to="/work">Project</RouterLink>
                     </li>
                     <li class="nav-item me-2">
