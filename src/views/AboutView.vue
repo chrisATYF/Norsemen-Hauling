@@ -1,5 +1,6 @@
 <template>
     <h3 class="top-title">About Us</h3>
+    <img src="../../images/FamShot.jpg" alt="" class="about-img-mobile">
     <div class="aboutImg">
         <div class="caption">
             <span class="heading">About Us</span>
@@ -55,6 +56,10 @@
 </template>
 
 <style scoped>
+.about-img-mobile {
+    display: none;
+}
+
 .aboutImg {
     background-image: url('../../images/FamShot.jpg');
     background-attachment: fixed;
@@ -104,8 +109,15 @@ section {
 }
 
 @media (max-width: 768px) {
+    .about-img-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
     .aboutImg {
-        background-attachment: scroll;
+        display: none;
     }
 
     .top-title {
