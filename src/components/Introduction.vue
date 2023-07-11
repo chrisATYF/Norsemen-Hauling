@@ -76,10 +76,14 @@ p {
 }
 
 @media (max-width: 768px) {
-    p {}
 
-    .services {}
+    p,
+    .services {
+        font-size: 18px;
+    }
 
-    .title {}
+    .title {
+        margin-top: 15px;
+    }
 }
 </style>
