@@ -1,4 +1,5 @@
 <template>
+    <h3 class="top-title">About Us</h3>
     <div class="aboutImg">
         <div class="caption">
             <span class="heading">About Us</span>
@@ -57,11 +58,15 @@
 .aboutImg {
     background-image: url('../../images/FamShot.jpg');
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
     width: 100%;
+}
+
+.top-title {
+    display: none;
 }
 
 .caption {
@@ -99,9 +104,20 @@ section {
 }
 
 @media (max-width: 768px) {
+    .aboutImg {
+        background-attachment: scroll;
+    }
+
+    .top-title {
+        display: block;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;
+        padding: 20px;
+    }
+
     .heading {
-        font-size: 2.5rem;
-        padding: 2rem 3rem;
+        display: none;
     }
 }
 </style>
