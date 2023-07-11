@@ -54,7 +54,7 @@
 .services {
     list-style: none;
     text-align: center;
-    letter-spacing: .1rem;
+    letter-spacing: .01rem;
     padding: 0;
     font-size: 20px;
 }
@@ -65,13 +65,21 @@
 
 h3 {
     text-transform: uppercase;
-    letter-spacing: .2rem;
+    letter-spacing: .1rem;
     padding: 25px;
     margin: 0;
 }
 
 p {
-    letter-spacing: .1rem;
+    letter-spacing: .01rem;
     font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    p {}
+
+    .services {}
+
+    .title {}
 }
 </style>

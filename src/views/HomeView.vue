@@ -59,7 +59,7 @@ import Intro from '../components/Introduction.vue';
 
 section {
   text-align: center;
-  padding: 100px;
+  padding: 100px 20px;
 }
 
 .dark-section {
@@ -81,6 +81,12 @@ p {
   100% {
     opacity: 1;
     transform: translate(0px);
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 50px 10px;
   }
 }
 </style>
