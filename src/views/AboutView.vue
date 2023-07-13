@@ -37,7 +37,7 @@
                 Wanda and Brook, a formidable mother and daughter duo, exemplify an unwavering commitment and
                 remarkable diligence in their roles. Although they operate primarily behind the scenes, their
                 contributions and achievements transcend expectations. These remarkable individuals embody the
-                spirit of Valkyries, renowned for their unwavering dedication and indomitable strength in their
+                spirit of Shield-maidens, renowned for their unwavering dedication and indomitable strength in their
                 field. As adept soldiers in the Viking tradition, they faithfully serve as loyal disciples of
                 Christ, epitomizing qualities of loyalty and devotion.
             </p>
